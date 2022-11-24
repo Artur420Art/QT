@@ -98,7 +98,7 @@ void MainWindow::on_ButtonAC_clicked()
     mullFlag = false;
     divFlag = false;
     subFlag = false;
-    ui->Display->setText(QString::number(m_result));
+    ui->Display->setText("");
 
 }
 
